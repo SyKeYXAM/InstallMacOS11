@@ -8,8 +8,6 @@ print ("4. Salir")
 
 opcion = int(input("Elige una opcion: "))
 
-os.system("bash DefinirMac.sh")
-
 if opcion == 1:
 	os.system("bash InstalarSW.sh")
 elif opcion == 2:
