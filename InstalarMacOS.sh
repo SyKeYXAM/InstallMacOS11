@@ -2,19 +2,19 @@
 
 #Definir disco de instalación para MacOS 11 BigSur
 #export Disco=$PWD/DiskBigSur.qcow2 #/media/sykey/538042f0-8415-4720-9850-47245ef68113/home/sykey/Escritorio/DiscoBigSur/DiskBigSur.qcow2
-export Disco="/media/sykey/Windows-SSD/Users/sykey/Desktop/BigSur/MyDisk.qcow2"
-export Capacidad=64G
+Disco="/media/sykey/Windows-SSD/Users/sykey/Desktop/BigSur/MyDisk.qcow2"
+Capacidad=64G
 
 #Caracteristicas de la máquina virtual
-export OSK="ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
-export OVMF_CODE="OVMF_CODE.fd"
-export OVMF_VARS="OVMF_VARS-1024x768.fd"
-export MRam=2G
-export nC=2 #Procesadores
-export nH=4 #Hilos
-export Boot="OpenCore.qcow2" 
-export Base="BaseSystem.img" #Disco instalación de MacOS 11 Big Sur
-export VGA=virtio #vmware #std #qxl
+OSK="ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+OVMF_CODE="OVMF_CODE.fd"
+OVMF_VARS="OVMF_VARS-1024x768.fd"
+MRam=2G
+nC=2 #Procesadores
+nH=4 #Hilos
+Boot="OpenCore.qcow2" 
+Base="BaseSystem.img" #Disco instalación de MacOS 11 Big Sur
+VGA=virtio #vmware #std #qxl
 
 #Ejecutamos la máquina virtual con las caracteristicas definidas.
 qemu-system-x86_64 \
