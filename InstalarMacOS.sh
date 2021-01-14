@@ -12,9 +12,9 @@ export OVMF_VARS="OVMF_VARS-1024x768.fd"
 export MRam=2G
 export nC=2 #Procesadores
 export nH=4 #Hilos
-export Boot="OpenCore.qcow2" #"OpenCore.qcow2" #OpenCore-Passthrough.qcow2
+export Boot="OpenCore.qcow2" 
 export Base="BaseSystem.img" #Disco instalación de MacOS 11 Big Sur
-export VGA=qxl #vmware #std #qxl
+export VGA=virtio #vmware #std #qxl
 
 #Ejecutamos la máquina virtual con las caracteristicas definidas.
 qemu-system-x86_64 \
