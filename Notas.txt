@@ -1,0 +1,31 @@
+
+
+----------------------------------
+--- Instalación ------------------
+----------------------------------
+
+Para instalar Mac OS 11 BigSur seguir las indicaciones del vídeo: https://www.youtube.com/sykeyxam
+
+python3 Iniciar.py
+
+------------------------------------------------------------------------------------------------------
+
+
+---------------------------
+--- Comprobación ----------
+---------------------------
+
+sha256sum BaseSystem.img
+0d0afe9f4ccfcbb851f6f032f2e72554e8dcaa9a05a7cb7ead897151a2476089  BaseSystem.img
+
+sha256sum OpenCore.qcow2
+2605a30808f2b49065cb5c50d420897a9e9ccef17f6209ea0d0fc1cdec3db346  OpenCore.qcow2
+
+sha256sum OVMF_VARS-1024x768.fd 
+714c157350c9ab916c2fc43c8e46e72746c3ca684e876f66fbbf7c2aba7a292b  OVMF_VARS-1024x768.fd
+
+sha256sum OVMF_CODE.fd 
+623f2d760f8aaa75327fd7096ab69d56c937a58e2dd6e80bc8abdbe9b1849a85  OVMF_CODE.fd
+
+------------------------------------------------------------------------------------------------------
+
